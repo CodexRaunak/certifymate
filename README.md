@@ -46,3 +46,7 @@ To run the JavaFX application:
 mvn clean javafx:run
 ```
 This will start the JavaFX application. You can interact with the student database and generate Transfer Certificates and other documents.
+
+
+Connect with jdbc demo
+https://www.javaguides.net/2019/07/javafx-jdbc-mysql-tutorial.html
