@@ -50,3 +50,5 @@ This will start the JavaFX application. You can interact with the student databa
 
 Connect with jdbc demo
 https://www.javaguides.net/2019/07/javafx-jdbc-mysql-tutorial.html
+Spring Boot
+https://medium.com/code-with-farhan/spring-boot-database-connection-jdbc-vs-jpa-hibernate-edc9708966fc
