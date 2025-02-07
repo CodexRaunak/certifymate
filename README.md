@@ -29,7 +29,23 @@ source ~/.bashrc
 Or 
 Go to Environment Variables and set JAVA_HOME to the directory of JDK 17 (e.g., C:\Program Files\Java\jdk-17).
 
-3. Build the Project with Maven
+. Create env.properties for Database Configuration
+To specify the database credentials (like username and password) in your project, follow these steps:
+
+3. Create the env.properties file:
+
+In the `src/main/resources` directory of your project, create a new file named `env.properties`.
+
+Add the Database Credentials:
+Inside the env.properties file, define your database username and password as follows:
+
+
+```bash
+SPRING_DATASOURCE_USERNAME=your_database_username
+SPRING_DATASOURCE_PASSWORD=your_database_password
+```
+
+4. Build the Project with Maven
 Ensure Maven is installed on your system. If it’s not, download Maven and install it.
 
 From the root of the project directory, run:
